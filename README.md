@@ -1,6 +1,6 @@
 # Corrective Context Generation for Misleading News Headlines
 
-This repository contains code for a project that detects misleading news headlines and generates corrective context to clarify them. The current work includes data exploration and baseline experiments for both classification and generation tasks.
+This repository contains code for a project that detects misleading news headlines and generates corrective context to clarify them. The current work includes data exploration and baseline experiments for both classification and generation tasks. The project is a grad project for the course INFO 259 at UC Berkeley with Prof. David Bamman.
 
 ## Overview
 
@@ -9,10 +9,9 @@ This repository contains code for a project that detects misleading news headlin
 
 ## Repository Structure
 
-- **data/**: Contains data exploration and preprocessing scripts.
-- **models/**: Includes baseline implementations for headline classification and context generation.
-- **experiments/**: Notebooks and scripts for experimental evaluation.
-- **README.md**: This file.
+- **data/**: Contains datasets
+- **notebooks/**: Contains preprocessing, exploration and baseline scripts
+- **reports/**: Contains the reports for my class INFO 259
 
 ## Getting Started
 
@@ -39,13 +38,13 @@ Generation: Summarization experiments evaluated with ROUGE scores on a subset of
 
 Throughout the project, additional enhancements will be implemented, including:
 
-- Integration: Combining the detection and generation modules into a unified, end-to-end pipeline.
-- Refinement: Further fine-tuning of the classification and summarization models based on extensive experiments.
-- Extended Evaluation: Incorporating human evaluations alongside automatic metrics like ROUGE and BERTScore.
-- Distant Supervision: Exploring distant and weak supervision techniques to improve training on limited labeled data.
-- Scalability: Optimizing the pipeline to handle larger datasets and real-world news articles.
-- Documentation: Regular updates to code documentation and experimental results to ensure reproducibility.
+- Integration: Combining the detection and generation modules into a unified, end-to-end pipeline
+- Refinement: Further fine-tuning of the classification and summarization models based on extensive experiments
+- Extended Evaluation: Incorporating human evaluations alongside automatic metrics like ROUGE and BERTScore
+- Distant Supervision: Exploring distant and weak supervision techniques to improve training on limited labeled data
+- (Limited) Scalability: Optimizing the pipeline to handle larger datasets and real-world news articles
+- Documentation: Regular updates to code documentation and experimental results to ensure reproducibility
 
 ## Report
 
-For further details refer to the pdf Midterm Report by Robert Wienroder.
+For further details on the project refer to the reports.
