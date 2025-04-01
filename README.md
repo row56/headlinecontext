@@ -11,6 +11,7 @@ This repository contains code for a project that detects misleading news headlin
 
 - **data/**: Contains datasets
 - **notebooks/**: Contains preprocessing, exploration and baseline scripts
+- **related papers/**: Contains research papers that were identified as being relevant for this work
 - **reports/**: Contains the reports for my class INFO 259
 
 ## Getting Started
