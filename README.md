@@ -9,10 +9,12 @@ This repository contains code for a project that detects misleading news headlin
 
 ## Repository Structure
 
-- **data/**: Contains datasets
-- **notebooks/**: Contains preprocessing, exploration and baseline scripts
-- **related papers/**: Contains research papers that were identified as being relevant for this work
-- **reports/**: Contains the reports for my class INFO 259
+- **data/**: Contains data exploration and preprocessing scripts
+- **models/**: Includes baseline implementations for headline classification and context generation
+- **experiments/**: Notebooks and scripts for experimental evaluation
+- **reports/**: Reports submitted to the teacher for evaluation of project status
+- **requirements.txt**: Required packages
+- **README.md**: This file
 
 ## Getting Started
 
@@ -39,9 +41,9 @@ Generation: Summarization experiments evaluated with ROUGE scores on a subset of
 
 Throughout the project, additional enhancements will be implemented, including:
 
-- Integration: Combining the detection and generation modules into a unified, end-to-end pipeline
-- Refinement: Further fine-tuning of the classification and summarization models based on extensive experiments
-- Extended Evaluation: Incorporating human evaluations alongside automatic metrics like ROUGE and BERTScore
+- Integration: Combining the detection and generation modules into an end-to-end pipeline
+- Refinement: Further fine-tuning of the classification and summarization models based
+- Extended Evaluation: Incorporating human evaluations as well as automatic metrics like ROUGE and BERTScore
 - Distant Supervision: Exploring distant and weak supervision techniques to improve training on limited labeled data
 - (Limited) Scalability: Optimizing the pipeline to handle larger datasets and real-world news articles
 - Documentation: Regular updates to code documentation and experimental results to ensure reproducibility
